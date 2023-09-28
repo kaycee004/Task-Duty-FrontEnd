@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap');
+
+
+
+:root{
+   --home-loren-color: hsla(0, 1%, 45%, 1);
+   --icon-header-color: hsla(274, 100%, 16%, 1);
+   --homepage-title-color: hsla(0, 0%, 16%, 1);
+   
+   --purple-bg-color: hsla(274, 58%, 56%, 1);
+   --button-font-color: hsla(270, 20%, 98%, 1);
+
+   --green-color: hsla(158, 40%, 61%, 1);
+   --purple-color: hsla(274, 58%, 56%, 1);
+
+   --black-bg-color: hsla(0, 0%, 16%, 1);
+   --orange-color: hsla(0, 83%, 73%, 1);
+}
+
+
+#root {
+   /* text-align: center; */
+   font-family: 'Signika Negative', sans-serif;
+}
+
+.home-main{
+
+}
+
+.home-btn{
+   background-color: var(--purple-bg-color);
+   border: none;
+   color: var(--button-font-color);
+}
+
+.task {
+   color: var(--purple-bg-color);
+}
+
+.home-lorem{
+   color: var(--home-loren-color);
+}
+
+.home-img{
+   max-width: 100%;
+}
+
+/* .tags{
+   
+} */
+
+.arrow-down{
+   
+}
+
+.new-div{
+  text-align: center;
+}
+
+.new-btn{
+   background-color: var(--purple-bg-color);
+   color: var(--button-font-color);
+   
+}
+
+.back-top{
+   color: var(--purple-color);
+   text-decoration: underline;
+}
+
+.new-task{
+   align-items: center;
+}
+
+.new-header{
+   text-align: center;
+}
+
+.title-task{
+   display: inline-block;
+   background-color: white;
+   color: var(--home-loren-color);
+   left: 210px;
+   top: -20px;
+}
+
+.description{
+   display: inline-block;
+   background-color: white;
+   color: var(--home-loren-color);
+   left: 210px;
+   top: 4px;
+
+}
+
+.tags{
+   display: inline-block;
+   background-color: white;
+   color: var(--home-loren-color);
+   top: -20px;
+   left: 220px
+}
+
+.tag-div{
+   outline: auto;
+}
+
+.samep{
+   color: white;
+   background-color: grey;
+}
+
+.samepe{
+   color: white;
+   background-color: grey;
+}
+
+.urgent{
+   left: 220px;
+   top: 25px;
+}
+
+.samep-edit{
+   color: white;
+   background-color: var(--black-bg-color);
+}
+
+.same-edit{
+   color: white;
+   bottom: 15px;
+   left: 575px;
+   background-color: var(--black-bg-color);
+}
+
+.plus{
+   width: 25px;
+   height: 25px;
+   text-align: center;
+}
+
+.plus-task {
+   text-align: center;
+}
+
+.add-task{
+   color: var(--purple-color);
+}
+
+.edit-btn{
+   background-color: var(--purple-bg-color);
+   border: none;
+   color: white;
+}
+
+.delete-btn{
+   border-color: var(--purple-color);
+   color: var(--purple-color);
+}
+
+.urgent-task{
+   margin-left: 10px;
+   color: var(--orange-color);
+}
+
+.both-btn{
+   margin-right: 10px;
+}
+
+.back-task {
+   color: var(--purple-color);
+   text-align: center;
+   text-decoration: underline;
+}
+
+.dropdown-options{
+   list-style: none;
+  text-align: left;
+}
+
+.dropdown-options li {
+   cursor: pointer;
+   transition: 0.3s ease-in-out;
+ }
+
+ .dropdown-options li:hover {
+   background-color: var(--purple-bg-color);
+   color: white;
+ }
+
