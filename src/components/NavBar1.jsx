@@ -24,7 +24,7 @@ const NavBar1 = () => {
         <Nav className="me-auto">
           {location.pathname === "/task" ? null : <Link to="/task">All Task</Link>}
           {/* {location.pathname === "/new" ? null :<Link to="/new">New Task</Link>} */}
-          {location.pathname === "/new"  || location.pathname.includes("/edit/:id") ? null :<Link to="/new">New Task</Link>}
+          {location.pathname === "/new"  || location.pathname.includes("/edit/") ? null :<Link to="/new">New Task</Link>}
           
         </Nav>
       </Navbar.Collapse>
